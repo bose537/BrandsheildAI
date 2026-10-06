@@ -38,7 +38,7 @@ npm --prefix frontend run build
 .\.venv\Scripts\python.exe -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 ```
 
-Open **https://brandshield-ai-final.onrender**. Keep the terminal running. Stop with Ctrl+C.
+Open **https://brandshield-ai-final.onrender.com**. Keep the terminal running. Stop with Ctrl+C.
 
 After the first setup, run only the last command. The SQLite database initializes automatically at `backend/data/brandshield.db`. The first start creates the demo brand, but no findings are shown until you run a scan or manual analysis.
 
